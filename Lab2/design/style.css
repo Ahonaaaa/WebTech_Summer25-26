@@ -138,3 +138,33 @@ h2{
     display: inline;
     color:black
 } */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 20px 10px;
+}
+
+
+
+input[type="submit"],
+input[type="button"]{
+    background-color: rgb(246, 33, 33);
+    color: aqua;
+    padding: 12px 30px;
+    width: 222%;
+    border-radius: 15px;
+    border-color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover{
+    background-color: black;
+}
