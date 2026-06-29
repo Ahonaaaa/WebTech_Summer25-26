@@ -1,0 +1,52 @@
+*{
+    margin:0
+    padding:0
+    box-sizing:border-box
+
+}
+body{
+     font-family: Cambria;
+     background-color: rgb(236, 241, 243);
+     padding: 50px;
+     line-height: 1.0;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(213, 218, 246);
+    padding: 20px;
+    border-radius:20px;
+}
+legend{
+    padding: 0 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:6px;
+}
+
+
+
+input[type="submit"],
+input[type="button"],
+input[type="clear"],
+input[type="reset"]{
+    background-color: rgb(49, 63, 215);
+    color: rgb(223, 228, 228);
+    width: 15%;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border-color: rgb(103, 94, 232);
+    font-weight: bold;
+    font-family: Cambria;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0;
+    
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="clear"]:hover
+{
+    background-color: rgb(218, 47, 47);
+}

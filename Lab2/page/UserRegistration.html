@@ -5,10 +5,21 @@
         <link rel="stylesheet" href="D:\WebTechnology\WebTechLab\MidTerm\WebTech_Summer25-26\Lab2\design\style.css">
     </head>
     <body>
+<div class="position">
+<div class="header"> 
+            <h2> AIUB Student Portal Registration </h2>
+        </div>
+</div>
+        
+
+        <div class="topnav">
+            <a href="https://aiub.edu/"> AIUB WebSite </a>
+            <a href="https://portal.aiub.edu"> AIUB Portal </a>
+        </div>
+
+
 
         <div class ="container">
-
-        
         <h1> User Registration Form </h1>
         <form> 
             <fieldset> 
@@ -59,7 +70,7 @@
             <td> <label for="Usercountry"> User Citizenship </label></td>
             <td> 
                 <select id="country"> 
-                    <option value="Default"> -----------Select  Country----- </option>
+                    <option value="Default"> Select  Country </option>
                     <option value="BD"> Bangladesh </option>
                     <option values="UK"> United Kingdom </option>
                 </select>
@@ -79,21 +90,22 @@
 
            <tr>
             <td>
-                <input type="checkbox" id="Conditions" name="Conditions" value="Conditions">
-                <label for="Conditions"> <font color="red"> I Agree Terms and Conditions * </font></label>
-                <label for="Conditions"> <font color="red"> I Agree Terms and Conditions * </font></label>
+                <input type="checkbox" id="Condition" name="Conditions" value="Conditions">
+                <label for="Conditions" id="Conditions"> <font color="red"> I Agree Terms and Conditions * </font></label>
+              
             </td>
            </tr>
 
 
         
         <tr>
-            <td><a href="login.html"><input type="button" value="SignUp"></a></td>
+            <td><input type="submit" id = submit name = submit href=""> </td>
         </tr>
             
         </table>
 </fieldset>
 </form>          
+
 </div>
     </body>
 </html>
